@@ -11,11 +11,22 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/menu.js"></script>
     <title>GoodPay</title>
 </head>
 
 <body>
     <header>
+        <section name="menu-lateral">
+            <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+                <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Fechar &times;</button>
+                <a href="#" class="w3-bar-item w3-button">Login GoodPay</a>
+                <hr>
+                <a href="#" class="w3-bar-item w3-button">Configurações</a>
+                <hr>
+                <a href="#" class="w3-bar-item w3-button">Logout</a>
+            </div>
+        </section>
         <section name="navbar" class="menu">
             <nav class="menu">
                 <ul class="menu">
@@ -36,8 +47,11 @@
                     <li>
                         <a href="#" onclick="document.getElementById('id03').style.display='block'">Notícias</a>
                     </li>
-                    <li style="float:right;">
+                    <li>
                         <a href="#" onclick="document.getElementById('id01').style.display='block'">Sobre Nós</a>
+                    </li>
+                    <li style="float: right;">
+                        <button class="w3-button w3-green w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
                     </li>
                 </ul>
             </nav>
@@ -471,7 +485,8 @@
         </section>
     </main>
     <footer>
-        <script src="./js/action.js"></script>
+        <script src="./js/action.js">
+        </script>
     </footer>
 </body>
 
