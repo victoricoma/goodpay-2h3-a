@@ -25,16 +25,17 @@
                     <i class="material-icons">double_arrow</i>
                 </button>
                 <hr>
-                    <form class="w3-container">
+                <form class="w3-container">
 
-                        <label>E-mail</label>
-                        <input class="w3-input" type="text" id="login" />
+                    <label>E-mail</label>
+                    <input class="w3-input" type="text" id="login" />
 
-                        <label>Senha</label>
-                        <input class="w3-input" type="password" id="password" />
+                    <label>Senha</label>
+                    <input class="w3-input" type="password" id="password" />
 
-                    </form>
-                    <button onclick="loginGoodPay()" class="w3-button w3-green w3-block" style="margin-top: 10px;">Entrar</button>
+                </form>
+                <button onclick="loginGoodPay()" class="w3-button w3-green w3-block"
+                    style="margin-top: 10px;">Entrar</button>
                 <hr>
                 <a href="#" class="w3-bar-item w3-button">Configurações</a>
                 <hr>
@@ -86,6 +87,24 @@
                     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
                     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
                     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+                </div>
+            </div>
+        </section>
+        <section name="user-card">
+            <div class="w3-container" style="margin-top: 20px;">
+                <div class="w3-card-4 w3-sand" style="width:70%">
+                    <header class="w3-container w3-pale-green">
+                        <h3 id="nome-card"></h3>
+                    </header>
+                    <div class="w3-container">
+                        <p>Informações de Usuário</p>
+                        <hr>
+                        <img src="./img/avatar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                            style="width:60px">
+                        <p id="resumo">
+                        </p><br>
+                    </div>
+                    <button class="w3-button w3-block w3-dark-grey">+ Conectar</button>
                 </div>
             </div>
         </section>
