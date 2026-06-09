@@ -1,0 +1,154 @@
+[
+    {
+        "cod": 1,
+        "nome": "Posto Ipiranga",
+        "valor": 250.00,
+        "tipo": "debito",
+        "gp": 12,
+        "data": "2026-05-11"
+    },
+    {
+        "cod": 2,
+        "nome": "Amazon.com",
+        "valor": 145.90,
+        "tipo": "credito",
+        "gp": 20,
+        "data": "2026-05-12"
+    },
+    {
+        "cod": 3,
+        "nome": "PIX - Carlos Mendes",
+        "valor": 850.00,
+        "tipo": "pix",
+        "gp": 150,
+        "data": "2026-05-13"
+    },
+    {
+        "cod": 4,
+        "nome": "Supermercado Carrefour",
+        "valor": 890.45,
+        "tipo": "credito",
+        "gp": 110,
+        "data": "2026-05-14"
+    },
+    {
+        "cod": 5,
+        "nome": "Restaurante Central",
+        "valor": 85.20,
+        "tipo": "debito",
+        "gp": 5,
+        "data": "2026-05-15"
+    },
+    {
+        "cod": 6,
+        "nome": "PIX - Maria Oliveira",
+        "valor": 300.00,
+        "tipo": "pix",
+        "gp": 45,
+        "data": "2026-05-16"
+    },
+    {
+        "cod": 7,
+        "nome": "Uber *Trip",
+        "valor": 32.50,
+        "tipo": "credito",
+        "gp": 4,
+        "data": "2026-05-17"
+    },
+    {
+        "cod": 8,
+        "nome": "Farmacia Drogasil",
+        "valor": 112.30,
+        "tipo": "debito",
+        "gp": 15,
+        "data": "2026-05-18"
+    },
+    {
+        "cod": 9,
+        "nome": "Mercado Livre",
+        "valor": 450.00,
+        "tipo": "credito",
+        "gp": 80,
+        "data": "2026-05-19"
+    },
+    {
+        "cod": 10,
+        "nome": "PIX - Loja de Roupas",
+        "valor": 1250.00,
+        "tipo": "pix",
+        "gp": 200,
+        "data": "2026-05-20"
+    },
+    {
+        "cod": 11,
+        "nome": "Netflix",
+        "valor": 55.90,
+        "tipo": "credito",
+        "gp": 8,
+        "data": "2026-05-21"
+    },
+    {
+        "cod": 12,
+        "nome": "Padaria Pao de Ouro",
+        "valor": 18.75,
+        "tipo": "debito",
+        "gp": 2,
+        "data": "2026-05-22"
+    },
+    {
+        "cod": 13,
+        "nome": "Oficina Mecanica",
+        "valor": 2100.00,
+        "tipo": "credito",
+        "gp": 400,
+        "data": "2026-05-23"
+    },
+    {
+        "cod": 14,
+        "nome": "PIX - Condominio",
+        "valor": 650.00,
+        "tipo": "pix",
+        "gp": 50,
+        "data": "2026-05-24"
+    },
+    {
+        "cod": 15,
+        "nome": "Ifood *Lanches",
+        "valor": 78.40,
+        "tipo": "credito",
+        "gp": 10,
+        "data": "2026-05-25"
+    },
+    {
+        "cod": 16,
+        "nome": "Posto Shell",
+        "valor": 200.00,
+        "tipo": "debito",
+        "gp": 30,
+        "data": "2026-05-26"
+    },
+    {
+        "cod": 17,
+        "nome": "Spotify Premium",
+        "valor": 21.90,
+        "tipo": "credito",
+        "gp": 3,
+        "data": "2026-05-27"
+    },
+    {
+        "cod": 18,
+        "nome": "PIX - Joao Silva",
+        "valor": 150.00,
+        "tipo": "pix",
+        "gp": 25,
+        "data": "2026-05-28"
+    },
+    {
+        "cod": 19,
+        "nome": "Leroy Merlin",
+        "valor": 1850.75,
+        "tipo": "credito",
+        "gp": 350,
+        "data": "2026-05-29"
+    }
+]

@@ -39,7 +39,7 @@
                 <hr>
                 <a href="#" class="w3-bar-item w3-button">Configurações</a>
                 <hr>
-                <a href="#" class="w3-bar-item w3-button">Logout</a>
+                <a href="#" onclick="logoutUser()" class="w3-bar-item w3-button">Logout</a>
             </div>
         </section>
         <section name="navbar" class="menu">
@@ -92,7 +92,7 @@
         </section>
         <section name="user-card">
             <div class="w3-container" style="margin-top: 20px;">
-                <div class="w3-card-4 w3-sand" style="width:70%">
+                <div class="w3-card-4 w3-sand" style="width:100%">
                     <header class="w3-container w3-pale-green">
                         <h3 id="nome-card"></h3>
                     </header>
@@ -106,6 +106,23 @@
                     </div>
                     <button class="w3-button w3-block w3-dark-grey">+ Conectar</button>
                 </div>
+            </div>
+        </section>
+        <section name="table-extrato">
+            <div class="w3-container">
+                <h2>Extrato de Transações GoodPay</h2>
+                <table class="w3-table-all w3-hoverable" id="tb_extrato">
+                    <thead>
+                        <tr class="w3-light-grey">
+                            <th>código</th>
+                            <th>transação</th>
+                            <th>valor</th>
+                            <th>gp</th>
+                            <th>tipo</th>
+                            <th>data</th>
+                        </tr>
+                    </thead>
+                </table>
             </div>
         </section>
         <section name="modal-sobrenos">

@@ -76,3 +76,13 @@ async function loadUser() {
 document.addEventListener('DOMContentLoaded', () => {
     loadUser()
 })
+
+async function logoutUser() {
+    if (localStorage.email != null) {
+        localStorage.removeItem('email')
+        console.info('Sessão Limpa')
+        window.location.href = './index.html'
+    } else {
+        console.error('Sessão não Existe')
+    }
+}
